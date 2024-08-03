@@ -1,0 +1,85 @@
+.show-when-mobile {
+    display: block;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hide-when-mobile {
+    display: none;
+}
+
+input {
+    display: none;
+}
+
+.fa-bars {
+    font-size: 30px;
+    margin-right: 20px;
+    cursor: pointer;
+    transform: scaleX(1.4);
+}
+
+.show-on-click {
+    display: none;
+    border-top: 1px solid rgb(253, 253, 253);
+}
+
+#menu:checked+.show-on-click {
+    display: block;
+}
+label{
+    font-size: 22px;
+    display: block;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+label:hover,
+.fa-bars:hover,
+.sub-div li a:hover{
+    color: cyan;
+    letter-spacing: 2px;
+}
+
+.fa-plus{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.sub-div {
+    display: none;
+}
+
+#html:checked+.sub-div,
+#css:checked+.sub-div,
+#js:checked+.sub-div {
+    display: block;
+}
+.main-div{
+    border-bottom: 1px solid rgb(253, 253, 253);
+}
+.sub-div li{
+    font-size: 17px;
+    padding: 10px 0 10px 35px;
+    
+}
+.sub-sub-div{
+    display: none;
+    margin: 0px 20px;
+}
+.sub-sub-div li a{
+    font-size: 15px;
+}
+.mini-projects{
+   font-size: 17px;
+   padding: 0;
+   padding: 10px 40px;
+}
+
+#mini:checked + .sub-sub-div{
+    display: block;
+}

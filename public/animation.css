@@ -1,0 +1,66 @@
+/* animation for bigger screen */
+@keyframes down {
+    0%{
+        transform: translateY(-100px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+header{
+    animation: down 1s 1;
+}
+@keyframes ltr {
+    0%{
+        transform: translateX(-100px);
+    }
+    70%{
+        transform: translateX(-50px);
+    }
+    50%{
+        transform: translateX(-30px);
+    }
+    100%{
+        transform: translateX(0px);
+        color: cyan;
+    }
+}
+.hide-when-mobile h1{
+    animation: ltr 3s 1;
+}
+@keyframes menuHover {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.sub-ul{
+    animation: menuHover 1s 1;
+}
+span{
+    animation: heart 2s infinite linear;
+}
+@keyframes heart {
+    0%,100%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+}
+/* animation for smaller screen */
+.show-on-click,.sub-div,.sub-sub-div{
+    animation: moveMenu 1s 1;
+}
+
+@keyframes moveMenu{
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
+
