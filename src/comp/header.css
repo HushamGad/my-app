@@ -1,0 +1,17 @@
+.show-when-mobile{
+    display: none;
+    
+}
+.hide-when-mobile{
+    display: flex;
+    justify-content: space-around;
+}
+
+@media(max-width: 700px){
+    .hide-when-mobile{
+        display: none;
+    }
+    .show-when-mobile{
+        display: block;
+    }
+}

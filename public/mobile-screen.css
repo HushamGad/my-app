@@ -1,15 +1,8 @@
-.show-when-mobile {
-    display: block;
-}
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.hide-when-mobile {
-    display: none;
 }
 
 input {
