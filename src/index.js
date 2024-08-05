@@ -6,6 +6,7 @@ import Html from './pages/html';
 import Css from './pages/css';
 import Javascript from './pages/javascript';
 import {HelmetProvider } from 'react-helmet-async';
+import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 
 
 import {
@@ -40,4 +41,5 @@ root.render(
      </HelmetProvider>
   </React.StrictMode>
 );
+serviceWorkerRegistration.register();
 
