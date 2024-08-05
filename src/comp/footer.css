@@ -4,6 +4,6 @@ footer{
     text-align: center;
     font-size: 18px;
 }
-.ali{
-    background-color: rgb(19, 0, 72);
+.myFooter .back-color{
+    background-color: teal;
 }

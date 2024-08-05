@@ -3,8 +3,8 @@ import './footer.css';
 
 const Footer = () => {
     return (
-        <div>
-            <footer className='ali'>
+        <div className='myFooter'>
+            <footer className='back-color'>
                 Designed and developed by Husham jad<span>🧡</span>
             </footer>
         </div>
